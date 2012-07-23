@@ -1,0 +1,14 @@
+body{
+  margin-top: 20px;
+}
+#list span{
+  font-weight: bold;
+  padding-right: 10px;
+}
+#list li a:last-child:after{
+content: '';
+}
+#list a:after{
+  padding-right: 5px;
+content: ',';
+}
